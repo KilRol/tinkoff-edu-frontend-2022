@@ -1,0 +1,104 @@
+body {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+p {
+  text-indent: 30px;
+}
+
+section {
+  overflow: hidden;
+}
+
+.article {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.contentList {
+  display: inline-block;
+  padding: 0 0.5em;
+  border: 1px solid #191919;
+  background-color: #efefef;
+}
+
+.contentList h3 {
+  margin: 0.4em 0;
+  text-align: center;
+}
+
+.contentList ol {
+  padding: 0 0 0 15px;
+  margin: 0.5em 0;
+}
+
+.redMarkedList li {
+  list-style-type: none;
+}
+
+.redMarkedList li:before {
+  color: red;
+  content: "•";
+  padding: 0 10px 0 0;
+  margin: 0 0 0 -15px;
+}
+
+.form fieldset label input,
+.form fieldset textarea {
+  display: block;
+  margin: 0.2em 0;
+}
+
+.table {
+  margin: 1em 0 0 1em;
+  max-width: 200px;
+  border-collapse: collapse;
+  float: right;
+}
+
+.table caption {
+  font-weight: bold;
+  font-size: 1.4em;
+  padding: 0.5em 0;
+  margin: 0;
+}
+
+.table th {
+  background-color: #efefef;
+}
+
+.table th,
+.table td {
+  border: 1px solid #191919;
+  padding: 0.8em;
+}
+
+.info_centered {
+  text-align: center;
+}
+
+.quote {
+  padding: 0 1em 1em 1em;
+  float: right;
+  background-color: #efefef;
+}
+
+.image {
+  float: right;
+  max-width: 20%;
+}
+
+.image img {
+  height: 100%;
+  max-width: 100%;
+}
+
+.image figcaption {
+  text-align: center;
+}
+
+.bordered-image {
+  border: 5px #191919 double;
+}
+

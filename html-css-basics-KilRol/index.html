@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name=" viewport  "/>
+  <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+  <link href="style.css" rel="stylesheet"/>
+  <title>Web (programming system)</title>
+</head>
+<body>
+<main>
+  <article class="article">
+    <h1>Web (programming system)</h1>
+    <hr>
+    <p><i>This article is about the computer programming system. For the
+      <a href="https://en.wikipedia.org/wiki/World_Wide_Web" target="_blank">World Wide Web</a>, see World Wide Web. For
+      the <a href="https://en.wikipedia.org/wiki/Bible_translation" target="_blank">Bible translation</a>, see
+      <a href="https://en.wikipedia.org/wiki/World_English_Bible" target="_blank">World English Bible</a>. For
+      other uses, see <a href="https://en.wikipedia.org/wiki/Web_(disambiguation)" target="_blank">web</a>.</i></p>
+    <p><i>"WEAVE" redirects here. For other uses, see
+      <a href="https://en.wikipedia.org/wiki/Weave_(disambiguation)" target="_blank">weave (disambiguation)</a>.</i></p>
+    <p><i>"WEB" redirects here. For other uses, see
+      <a href="https://en.wikipedia.org/wiki/Web_(disambiguation)" target="_blank">web (disambiguation)</a>.</i></p>
+    <figure class="image">
+      <img alt="knuth" class="bordered-image" height="237" src="images/knuth.jpg" width="200">
+      <figcaption> Donald E. Knuth</figcaption>
+    </figure>
+    <p><b>Web</b> is a computer programming system created by
+      <a href="https://en.wikipedia.org/wiki/Donald_E._Knuth" target="_blank">Donald E. Knuth</a> as the first
+      implementation of what he called "<a href="https://en.wikipedia.org/wiki/Literate_programming" target="_blank">literate
+        programming</a>": the idea that one could create
+      <a href="https://en.wikipedia.org/wiki/Software" target="_blank">software</a> as works of
+      <a href="https://en.wikipedia.org/wiki/Literature" target="_blank">literature</a>, by embedding source code inside
+      descriptive text, rather than the reverse (as is common practice in most
+      <a href="https://en.wikipedia.org/wiki/Programming_languages" target="_blank">programming languages</a>), in an
+      order that is convenient for exposition to human readers, rather than in the order demanded by the
+      compiler.<sup><a href="#note_1">[1]</a></sup></p>
+
+    <p>Web consists of two secondary programs: TANGLE, which produces compilable
+      <a href="https://en.wikipedia.org/wiki/Pascal_programming_language" target="_blank">Pascal</a> code from the
+      source texts, and WEAVE, which produces nicely-formatted, printable documentation using
+      <a href="https://en.wikipedia.org/wiki/TeX" target="_blank">TeX</a>.</p>
+    <p><a href="https://en.wikipedia.org/wiki/CWEB" target="_blank">CWEB</a> is a version of Web for the
+      <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank"></a>C programming language, while
+      <a href="https://en.wikipedia.org/wiki/Noweb" target="_blank">noweb</a> is a separate literate programming tool,
+      which is inspired by Web (as reflected in the name) and which is
+      <a href="https://en.wikipedia.org/wiki/Language-independent_specification" target="_blank">language agnostic</a>.
+    </p>
+    <p>The most significant programs written in Web are
+      <a href="https://en.wikipedia.org/wiki/TeX" target="_blank">TeX</a> and
+      <a href="https://en.wikipedia.org/wiki/Metafont" target="_blank">Metafont</a>. Modern TeX distributions use
+      another program <a href="https://en.wikipedia.org/wiki/Web2C" target="_blank">Web2C</a> to convert Web source to
+      C.</p>
+
+    <figure class="quote">
+      <blockquote cite="http://www.ams.org/notices/200203/fea-knuth.pdf">In fact, my main conclusion after spending ten
+        years of my life working on the T<sub>E</sub>X project is that software is hard. It’s harder than anything else
+        I’ve ever had to do.
+      </blockquote>
+      <figcaption> - Knuth, Donald (2002). <a href="http://www.ams.org/notices/200203/fea-knuth.pdf" target="_blank">"All
+        Questions
+        Answered"</a>. Notices of the AMS 49 (3):320.
+      </figcaption>
+    </figure>
+
+    <nav class="contentList">
+      <h3>Contents</h3>
+      <ol>
+        <li><a href="#Philosophy">Philosophy</a></li>
+        <li><a href="#CWEB">CWEB</a></li>
+        <li><a href="#References">References</a></li>
+        <li><a href="#External_links">External links</a></li>
+      </ol>
+    </nav>
+
+    <section id="Philosophy">
+      <h2>Philosophy</h2>
+      <hr>
+      <figure class="image">
+        <img alt="tex" height="689" src="images/tex.png" width="1200">
+        <figcaption>T<sub>E</sub>X is a typesetting system which was designed and written by Donald Knuth</figcaption>
+      </figure>
+      <p> Unlike most other <a href="https://en.wikipedia.org/wiki/Comparison_of_documentation_generators"
+                               target="_blank">documentation generators</a> which relegate documentation to comments,
+        the WEB approach is to write an article to document the making of the source code. Much like TeX articles, the
+        source is divided into sections according to documentation flow. For example, in CWEB, code sections are
+        seamlessly intermixed in the line of
+        argumentation.<sup><a href="#note_2">[2]</a></sup></p>
+    </section>
+
+    <section id="CWEB">
+      <h2>CWEB</h2>
+      <hr>
+      <table class="table">
+        <caption>CWEB</caption>
+        <thead>
+        <tr>
+          <th>Info type</th>
+          <th>Info</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <th><a href="https://en.wikipedia.org/wiki/Programming_paradigm" target="_blank">Paradigm</a></th>
+          <td>
+            <a href="https://en.wikipedia.org/wiki/Literate_programming" target="_blank">Literate</a>,
+            <a href="https://en.wikipedia.org/wiki/Imperative_programming" target="_blank">imperative</a>
+            (<a href="https://en.wikipedia.org/wiki/Procedural_programming" target="_blank">procedural</a>),
+            <a href="https://en.wikipedia.org/wiki/Structured_programming" target="_blank">structured</a>
+          </td>
+        </tr>
+        <tr>
+          <th><a href="https://en.wikipedia.org/wiki/Software_design" target="_blank">Designed by</a></th>
+          <td><a href="https://en.wikipedia.org/wiki/Donald_Knuth" target="_blank">Donald Knuth</a></td>
+        </tr>
+        <tr>
+          <th><a href="https://en.wikipedia.org/wiki/Software_developer" target="_blank">Developer</a></th>
+          <td><a href="https://en.wikipedia.org/wiki/Donald_Knuth" target="_blank">Donald Knuth</a> & Silvio Levy</td>
+        </tr>
+        <tr>
+          <th>First appeared</th>
+          <td>1987; 35 years ago</td>
+        </tr>
+        <tr>
+          <th><a href="https://en.wikipedia.org/wiki/Software_release_life_cycle" target="_blank">Stable release</a>
+          </th>
+          <td>3.67 / October 24, 2006; 15 years ago</td>
+        </tr>
+        <tr>
+          <th><a href="https://en.wikipedia.org/wiki/Type_system" target="_blank">Typing discipline</a></th>
+          <td>
+            <a href="https://en.wikipedia.org/wiki/Type_system" target="_blank">Static</a>,
+            <a href="https://en.wikipedia.org/wiki/Weak_typing" target="_blank">weak</a>,
+            <a href="https://en.wikipedia.org/wiki/Manifest_typing" target="_blank">manifest</a>,
+            <a href="https://en.wikipedia.org/wiki/Nominative_type_system" target="_blank">nominal</a>
+          </td>
+        </tr>
+        <tr>
+          <th><a href="https://en.wikipedia.org/wiki/Operating_system" target="_blank">OS</a></th>
+          <td><a href="https://en.wikipedia.org/wiki/Cross-platform" target="_blank">Cross-platform (multi-platform)</a>
+          </td>
+        </tr>
+        <tr>
+          <th><a href="https://en.wikipedia.org/wiki/Software_license" target="_blank">License</a></th>
+          <td>custom <a href="https://en.wikipedia.org/wiki/Free-software_license" target="_blank">git rm -r --cachedfree-software
+            license</a></td>
+        </tr>
+        <tr>
+          <th><a href="https://en.wikipedia.org/wiki/Filename_extension" target="_blank">Filename extensions</a></th>
+          <td>.w</td>
+        </tr>
+        <tr>
+          <th>Website</th>
+          <td><a href="http://www-cs-faculty.stanford.edu/~uno/cweb.html" target="_blank">www-cs-faculty.stanford.edu/~uno/cweb.html</a>
+          </td>
+        </tr>
+        <tr>
+          <th colspan="2">Influenced by</th>
+        </tr>
+        <tr>
+          <td class="info_centered" colspan="2">
+            <a href="https://en.wikipedia.org/wiki/WEB" target="_blank">WEB</a>,
+            <a href="https://en.wikipedia.org/wiki/TeX" target="_blank">TeX</a>
+          </td>
+        </tr>
+        <tr>
+          <th colspan="2">Influenced</th>
+        </tr>
+        <tr>
+          <td class="info_centered" colspan="2"><a href="https://en.wikipedia.org/wiki/Noweb" target="_blank">noweb</a>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+
+      <p><b>CWEB</b> is a computer programming system created by Donald Knuth and Silvio Levy as a follow-up to Knuth's
+        WEB <a href="https://en.wikipedia.org/wiki/Literate_programming" target="_blank">literate programming</a>
+        system, using the <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank">C programming
+          language</a> (and to a lesser extent the <a href="https://en.wikipedia.org/wiki/C%2B%2B"
+                                                      target="_blank">C++</a> and
+        <a href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="_blank">Java</a> programming
+        languages) instead of <a href="https://en.wikipedia.org/wiki/Pascal_(programming_language)" target="_blank">
+          Pascal</a>.</p>
+      <p>Like WEB, it consists of <u>two primary programs</u>: CTANGLE, which produces compilable C code from the source
+        texts, and CWEAVE, which produces nicely-formatted printable documentation using TeX.</p>
+      <h3>Features</h3>
+      <ul class="redMarkedList">
+        <li>Can enter manual TeX code as well as automatic.</li>
+        <li>Make formatting of C code for <a href="https://en.wikipedia.org/wiki/Pretty_printing" target="_blank">
+          pretty printing</a>.
+        </li>
+        <li>Can define sections, and can contain documentation and codes, which can then be included into other
+          sections.
+        </li>
+        <li>Write the header code and main C code in one file, and can reuse the same sections, and then it can be
+          tangled into multiple files for compiling.
+        </li>
+        <li>Use <u>#line</u> pragmas so that any warnings or errors refer to the .w source.</li>
+        <li>Include files.</li>
+        <li>Change files, which can be automatically merged into the code when compiling/printing.</li>
+        <li>Produces index of identifiers and section names in the printout.</li>
+      </ul>
+    </section>
+
+    <section id="References">
+      <h2>References</h2>
+      <hr>
+      <ol>
+        <li><cite id="note_1"> <a href="https://en.wikipedia.org/wiki/Donald_Knuth" target="_blank">Knuth, Donald E.</a>
+          (1992).
+          Literate Programming. CSLI Lecture Notes. Vol. 27. Stanford,
+          California: Center for the Study of Language and Information.</cite></li>
+        <li><cite id="note_2">Silvio Levy (12 June 2004).
+          <a href="http://tex.loria.fr/litte/wc.pdf" target="_blank">"An example of CWEB"</a></cite></li>
+      </ol>
+    </section>
+
+    <section id="External_links">
+      <h2>External links</h2>
+      <hr>
+      <ul>
+        <li><a href="https://www.ctan.org/pkg/web" target="_blank">The TeX Catalogue entry for Web</a></li>
+        <li><a href="https://www-cs-faculty.stanford.edu/~knuth/cweb.html" target="_blank">CWEB homepage</a></li>
+      </ul>
+    </section>
+
+    <form class="form">
+      <fieldset>
+        <legend>Оставьте отзыв о статье</legend>
+        <label for="name">
+          Имя: <input id="name" name="name" type="text"/>
+        </label>
+        <label for="email">
+          E-mail: <input id="email" name="email" type="email"/>
+        </label>
+        <label for="comment">
+          Отзыв:
+          <textarea
+              cols="50"
+              id="comment"
+              name="comment"
+              rows="10"
+          ></textarea>
+        </label>
+      </fieldset>
+    </form>
+  </article>
+</main>
+</body>
+</html>
