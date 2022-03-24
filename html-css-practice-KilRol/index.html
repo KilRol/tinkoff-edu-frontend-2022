@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width,  initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" name="viewport">
+  <meta content="ie=edge" http-equiv="X-UA-Compatible">
+  <link href="style.css" rel="stylesheet">
+  <title>Тинькофф Прокат</title>
+</head>
+<body>
+<header class="logo">
+  <img alt="logo-tp" src="assets/svg/logo-tp.svg">
+</header>
+<main class="main">
+  <div class="search">
+    <label class="search__label" for="search">
+      <input class="search__input" id="search" placeholder="Поиск фильмов по жанрам и актерам" type="text">
+      <button class="search__reset" id="reset" type="reset"></button>
+    </label>
+    <div class="search__history">
+      <button class="history__item">Как я встретил мамку</button>
+      <button class="history__item">Гоп-стоп</button>
+      <button class="history__item">Весенний дрозд</button>
+      <button class="history__item">Белоснежка и семь гномов</button>
+      <button class="history__item">Трое в лодке</button>
+      <button class="history__item">Бандитский петербург</button>
+      <button class="history__item">Спящая женщина и принц</button>
+      <button class="history__item">Война миров</button>
+      <button class="history__item">Дикий дикий дикий запад</button>
+    </div>
+  </div>
+  <div class="no-results">Мы не поняли о чем речь ¯\_(ツ)_/¯</div>
+  <div class="results">
+    <span>Нашли 82 фильма</span>
+    <div class="movie">
+      <div class="movie-card">
+        <div class="movie-card__overlay">
+          <div class="movie-card__tags">
+            <span>драма, комедия, мелодрама, история, военный</span>
+            <span>1994</span>
+          </div>
+          <div class="movie-card__title">
+            <span>Форест Гамп</span>
+          </div>
+          <div class="movie-card__rating">
+            <img alt="cool" src="assets/svg/cool.svg">
+            <span>8,9</span>
+          </div>
+        </div>
+        <img alt="forrest-gump" src="assets/images/forrest-gump.png">
+      </div>
+      <div class="movie-card">
+        <div class="movie-card__overlay">
+          <div class="movie-card__tags">
+            <span>Военный, драма</span>
+            <span>1998</span>
+          </div>
+          <div class="movie-card__title">
+            <span>Спасти рядового Райана</span>
+          </div>
+          <div class="movie-card__rating">
+            <img alt="cool" src="assets/svg/cool.svg">
+            <span>8,2</span>
+          </div>
+        </div>
+        <img alt="saving-private-ryan" src="assets/images/saving-private-ryan.png">
+      </div>
+      <div class="movie-card">
+        <div class="movie-card__overlay">
+          <div class="movie-card__tags">
+            <span>Драма, приключения, история</span>
+            <span>1995</span>
+          </div>
+          <div class="movie-card__title">
+            <span>Аполлон 13</span>
+          </div>
+          <div class="movie-card__rating">
+            <img alt="ok" src="assets/svg/ok.svg">
+            <span>7,7</span>
+          </div>
+        </div>
+        <img alt="apollo-13" src="assets/images/apollo-13.png">
+      </div>
+      <div class="movie-card">
+        <div class="movie-card__overlay">
+          <div class="movie-card__tags">
+            <span>Боевик, триллер</span>
+            <span>2016</span>
+          </div>
+          <div class="movie-card__title">
+            <span>Инферно</span>
+          </div>
+          <div class="movie-card__rating">
+            <img alt="ok" src="assets/svg/ok.svg">
+            <span>6,4</span>
+          </div>
+        </div>
+        <img alt="inferno" src="assets/images/inferno.png">
+      </div>
+      <div class="movie-card">
+        <div class="movie-card__overlay">
+          <div class="movie-card__tags">
+            <span>Боевик, триллер</span>
+            <span>2017</span>
+          </div>
+          <div class="movie-card__title">
+            <span>Шпионский мост</span>
+          </div>
+          <div class="movie-card__rating">
+            <img alt="ok" src="assets/svg/ok.svg">
+            <span>7,5</span>
+          </div>
+        </div>
+      </div>
+      <div class="movie-card">
+        <div class="movie-card__overlay">
+          <div class="movie-card__tags">
+            <span>Драма, биография</span>
+            <span>2016</span>
+          </div>
+          <div class="movie-card__title">
+            <span>Чудо на Гудзоне</span>
+          </div>
+          <div class="movie-card__rating">
+            <img alt="ok" src="assets/svg/ok.svg">
+            <span>7,4</span>
+          </div>
+        </div>
+        <img alt="sully" src="assets/images/sully.png">
+      </div>
+      <div class="movie-card movie-card_loading"></div>
+      <div class="movie-card">
+        <div class="movie-card__overlay">
+          <div class="movie-card__tags">
+            <span>Драма, мелодрама, комедия</span>
+            <span>2004</span>
+          </div>
+          <div class="movie-card__title">
+            <span>Терминал</span>
+          </div>
+          <div class="movie-card__rating">
+            <img alt="cool" src="assets/svg/cool.svg">
+            <span>8,1</span>
+          </div>
+        </div>
+        <img alt="the-terminal" src="assets/images/the-terminal.png">
+      </div>
+      <div class="movie-card movie-card_loading"></div>
+      <div class="movie-card movie-card_loading"></div>
+      <div class="movie-card movie-card_loading"></div>
+      <div class="movie-card movie-card_loading"></div>
+    </div>
+  </div>
+</main>
+<footer class="footer">
+  <span class="footer__copyright">© 2019 Тинькофф Прокат</span>
+</footer>
+</body>
+</html>
